@@ -1,0 +1,300 @@
+.container{
+	overflow: hidden
+	}
+	
+.tab{
+	float: left;
+	}
+	
+.tab-2{
+	margin-left: 50px
+	}
+
+.tab-2 input{
+	display: block;margin-bottom: 10px
+	}
+	
+tr{
+	cursor: pointer; transition: all .25s ease-in-out;
+	transition:all .25s ease-in-out
+	}
+
+.selected{
+	background-color: #783434;
+	font-weight: bold;
+	color: #fff;
+}
+
+tr:hover{
+	background-color: #D3D3D3;cursor: pointer 
+	}
+
+h3 , table {
+	text-align: center;
+}
+
+body {
+	background-image:url(../img/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	min-height: 100%;
+	
+	padding-top: value;
+	padding-right: value;
+	padding-bottom: value;
+	padding-left: value;
+	padding: 10px 30px 10px 30px;
+}
+
+th {
+	text-align: center;
+	background-color: #A24857;
+}
+
+.blogname {
+	background-color: #783434;
+	width: 1220px;
+	height: 150px;
+	position: relative;
+	color: white;
+
+	padding-top: value;
+	padding-right: value;
+	padding-bottom: value;
+	padding-left: value;
+	padding: 10px 30px 10px 30px;
+	
+	
+	display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    	box-shadow: 5px 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+
+.mainDiv {
+	position: absolute;
+	top: 100px;
+	width: 1220px;
+	height: 420px;
+	margin: auto;
+	margin-top: 100px;
+	
+	padding: 10px 30px 10px 30px;
+	
+	background: radial-gradient(#FFFFFF,#D3D3D3);
+	box-shadow: 5px 10px;
+	box-shadow: 10px 10px 5px #888888				
+}
+
+
+div.scroll {
+    margin:4px, 4px;
+    padding:4px;
+    background: radial-gradient(#FFFFFF,#D3D3D3);
+    width: 1215px;
+    height: 280px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+
+
+		table {
+			width: 1200px;
+			height: 30px;
+			margin: auto;
+			table-layout: fixed;
+		}
+
+		table, tr, td, th {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+
+		td, th {
+			width: 100px; 
+			height: 40px;
+			padding:5px 10px;
+		}
+
+
+
+
+		{box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button1 {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  margin-top: 30px;
+  margin-left: 100px;
+
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button2 {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button3 {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+	width: 1250px;
+	height: 600px;
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  margin-right: 37px;
+  margin-bottom: 40px;
+      	box-shadow: 5px 10px;
+	box-shadow: 10px 10px 5px #888888;
+	animation: popup 0.7s;
+}
+
+/* Add styles to the form container */
+.form-container {
+  width: 1250px;
+  height: 600px;
+  padding: 10px;
+  background-color: white;
+      	box-shadow: 5px 10px;
+	box-shadow: 10px 10px 5px #888888;
+	animation: popup 0.7s;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 1200px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button1:hover .open-button2:hover .open-button3:hover {
+  opacity: 1;
+}
+
+
+html, body {
+    height: 100%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+  }
+
+  .confirm-box {
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+    background: white;
+  box-shadow: 5px 10px;
+  box-shadow: 10px 10px 5px #888888
+  }
+
+  .close {
+    cursor: pointer;
+  }
+
+
+@keyframes popup {
+  0%{
+    transform: scale(0.2);
+  }
+  50%{
+    transform: scale(0.4);
+  }
+  60%{
+    transform: scale(0.6);
+  }
+  70%{
+    transform: scale(0.7);
+  }
+  80%{
+    transform: scale(0.8);
+  }
+  90%{
+    transform: scale(0.9);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

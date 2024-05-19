@@ -1,0 +1,2 @@
+Create a database and name it oneopti_db 
+then import oneopti_db.sql

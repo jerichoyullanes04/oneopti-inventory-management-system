@@ -1,0 +1,107 @@
+.page-container {   
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  height: inherit;
+  display: flex;
+  }
+  #text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  }
+
+  :root {
+--nav-icon-width: 50px;
+--nav-border-width: 8px;
+}
+
+html, body {
+position: relative;
+height: 100%;
+margin: 0;
+font-family: sans-serif;
+}
+
+.main {
+height: inherit;
+padding: 0;
+padding-left: var(--nav-border-width);
+overflow-y: auto;
+}
+
+.nav {
+width: 200px;
+height: inherit;
+position: relative;
+background-color: #DCDCDC;
+transition: width 0.2s;
+flex-shrink: 0;
+}
+
+.nav--collapsed {
+width: var(--nav-icon-width);
+}
+
+.nav--collapsed .nav__label {
+display: none;
+}
+
+.nav__link {
+display: flex;
+align-items: center;
+color: rgba(0, 0, 0, 0.75);
+text-decoration: none;
+height: 75px;
+}
+
+.nav__link:hover {
+background-color: #FF5349;
+}
+
+.nav__icon-container {
+width: var(--nav-icon-width);
+height: var(--nav-icon-width);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+}
+
+.nav__label {
+white-space: nowrap;
+padding-left: 5px;
+}
+
+.nav__border {
+position: absolute;
+left: 100%;
+top: 0;
+width: var(--nav-border-width);
+height: inherit;
+background-color: #FF5349;
+transition: background-color 0.2s;
+cursor: ew-resize;
+}
+
+.nav__border:hover {
+background-color: #cccccc;
+}
+
+.sidebar-logo {
+margin-left: 10px;
+}
+  
+body {
+  background-image: url('../img/OneOpti.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: 700px;
+  z-index: 100;
+}
